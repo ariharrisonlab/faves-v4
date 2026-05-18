@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# Local validation re-runs (timestamped reports)
+faves_v4_validation_report_*.json
+!reports/faves_v4_validation_report_20260510_102603.json
+val001_report.{md,json}
+!reports/val001_cross_path_report.{md,json}
+latency_report.{md,json}
+!reports/latency_report.{md,json}

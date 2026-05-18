@@ -1,0 +1,66 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, governance bundle, or reproducer scripts, please cite both the manuscript and this Zenodo release."
+type: dataset
+title: "FAVES V4: Supporting Information — Benchmark, Governance, and Reproducer Scripts"
+authors:
+  - family-names: Harrison
+    given-names: Ari
+    orcid: "https://orcid.org/0009-0006-5836-7528"
+    affiliation: "NovoMCP, San Francisco, CA, USA"
+    email: ari@novomcp.com
+abstract: >-
+  Benchmark dataset, validation execution reports, and reproducer scripts
+  for the FAVES V4 paper. FAVES V4 is a four-layer cheminformatics screening
+  system aligned to the U.S. HHS/ASTP/ONC FAVES rubric (Fair, Appropriate,
+  Valid, Effective, Safe) for trustworthy AI in healthcare. This release
+  contains the full v3 ground truth (102 compounds), the V4 field-completeness
+  200-compound set, the validation execution record (362/362 post-fix), the
+  cross-RDKit-version external reproducibility report (20/20), and the
+  end-to-end latency benchmark (90 steady-state samples). The seven NMCP-FAVES
+  governance documents are summarized in Section 4 of the manuscript; full
+  operational versions are available from the corresponding author.
+keywords:
+  - cheminformatics
+  - structural alerts
+  - PAINS
+  - BOILED-Egg
+  - controlled substances
+  - regulatory compliance
+  - prior art
+  - drug discovery
+  - HHS/ONC FAVES
+  - GAMP 5
+  - software validation
+  - autonomous discovery
+license: MIT
+repository-code: "https://github.com/realariharrison/faves-v4"
+url: "https://api.novomcp.com"
+version: "1.0.0"
+date-released: "2026-05-15"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Harrison
+      given-names: Ari
+      orcid: "https://orcid.org/0009-0006-5836-7528"
+  title: "FAVES V4: A Production-Deployed Compliance and Liability Screening System for Drug Discovery at 122M-Compound Scale, Aligned to HHS/ONC FAVES and NIST AI 600-1"
+  journal: "ChemRxiv"
+  year: 2026
+  doi: "10.26434/chemrxiv-2026-pending"
+references:
+  - type: article
+    authors:
+      - family-names: Harrison
+        given-names: Ari
+    title: "FAVES V3: A Three-Tier Regulatory Compliance Detection System for Molecular Databases"
+    journal: "ChemRxiv"
+    year: 2026
+    doi: "10.26434/chemrxiv.10001641/v1"
+    url: "https://doi.org/10.26434/chemrxiv.10001641/v1"
+  - type: software
+    title: "FAVES V3 Regulatory Detection Benchmark"
+    authors:
+      - family-names: Harrison
+        given-names: Ari
+    repository-code: "https://github.com/realariharrison/faves-v3-benchmark"
+    doi: "10.5281/zenodo.18357496"

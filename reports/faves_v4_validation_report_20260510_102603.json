@@ -1,0 +1,53 @@
+{
+  "document_id": "NMCP-FAVES-VAL-001",
+  "execution_date": "2026-05-10T17:26:03.244935+00:00",
+  "target": "https://api.novomcp.com",
+  "total_compounds": 342,
+  "total_passed": 341,
+  "total_failed": 1,
+  "overall_acceptance": "NOT MET",
+  "tests": [
+    {
+      "test_id": "3.1",
+      "name": "V3 Regulatory Screening Benchmark",
+      "total": 102,
+      "passed": 101,
+      "failed": 1,
+      "acceptance": "NOT MET",
+      "duration_s": 2596.7,
+      "failures": [
+        "cortisol: FALSE POSITIVE \u2014 status=controlled"
+      ]
+    },
+    {
+      "test_id": "3.2",
+      "name": "V4 Field Completeness",
+      "total": 200,
+      "passed": 200,
+      "failed": 0,
+      "acceptance": "MET",
+      "duration_s": 1370.4,
+      "failures": []
+    },
+    {
+      "test_id": "3.5",
+      "name": "BOILED-Egg Implementation Verification",
+      "total": 20,
+      "passed": 20,
+      "failed": 0,
+      "acceptance": "MET",
+      "duration_s": 146.3,
+      "failures": []
+    },
+    {
+      "test_id": "3.6",
+      "name": "Prior Art Resolution",
+      "total": 20,
+      "passed": 20,
+      "failed": 0,
+      "acceptance": "MET",
+      "duration_s": 141.5,
+      "failures": []
+    }
+  ]
+}
