@@ -1,0 +1,24 @@
+FAVES V4 Supporting Information
+Copyright 2026 Ari Harrison (NovoMCP)
+
+This product includes software and data developed by Ari Harrison (NovoMCP)
+in support of the manuscript:
+
+    Harrison, A. FAVES V4: A Production-Deployed Compliance and Liability
+    Screening System for Drug Discovery at 122M-Compound Scale, Aligned to
+    HHS/ONC FAVES and NIST AI 600-1. ChemRxiv (2026).
+    DOI: 10.26434/chemrxiv-pending
+
+Code (scripts/) is licensed under the Apache License, Version 2.0;
+see LICENSE for the full text.
+
+Data (data/v3_ground_truth.csv) and execution reports (reports/) are
+licensed under the Creative Commons Attribution 4.0 International License
+(CC BY 4.0); see LICENSE-DATA for the full text.
+
+Per Section 4(d) of the Apache License, this NOTICE file must be
+reproduced in any Derivative Works.
+
+For governance documents (IUS-001, RSC-001, VAL-001, AUD-001, CCM-001,
+UIG-001, FAVES-V4 Technical Overview), see novomcp.com/governance or
+contact ari@novomcp.com.

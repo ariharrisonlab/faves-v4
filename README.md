@@ -1,6 +1,6 @@
 # FAVES V4 — Supporting Information
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![License: Apache 2.0](https://img.shields.io/badge/code-Apache_2.0-blue.svg)](LICENSE) [![Data License: CC BY 4.0](https://img.shields.io/badge/data-CC_BY_4.0-blue.svg)](LICENSE-DATA)
 [![DOI](https://img.shields.io/badge/Zenodo-pending-lightgrey.svg)](#)
 [![ChemRxiv](https://img.shields.io/badge/ChemRxiv-pending-lightgrey.svg)](#)
 
@@ -22,7 +22,9 @@ FAVES V4 is a four-layer cheminformatics screening system aligned to two complem
 ```
 faves-v4/
 ├── README.md                                    ← this file
-├── LICENSE                                      ← MIT (data + code only)
+├── LICENSE                                      ← Apache 2.0 (code in scripts/)
+├── LICENSE-DATA                                 ← CC BY 4.0 (data/ + reports/)
+├── NOTICE                                       ← Apache 2.0 attribution propagation
 ├── CITATION.cff                                 ← machine-readable citation metadata
 │
 ├── data/                                        ← compound benchmarks (browseable)
@@ -158,7 +160,19 @@ GitHub's "Cite this repository" widget reads `CITATION.cff` for one-click citati
 
 ## License
 
-MIT — see [LICENSE](LICENSE). The compound data is derived from public sources (PubChem, DEA scheduling documents, RDKit FilterCatalog) and is not subject to additional restrictions.
+This repository uses a **dual license**:
+
+| Component | License | File |
+|---|---|---|
+| Code (`scripts/`) | Apache License 2.0 | [LICENSE](LICENSE) |
+| Data (`data/v3_ground_truth.csv`) and execution reports (`reports/`) | Creative Commons Attribution 4.0 International (CC BY 4.0) | [LICENSE-DATA](LICENSE-DATA) |
+| Attribution propagation | per Apache §4(d) | [NOTICE](NOTICE) |
+
+**Both licenses permit commercial use; both require attribution.** When you use the benchmark or scripts in a paper, presentation, regulatory filing, or downstream product, cite the manuscript (BibTeX in [CITATION.cff](CITATION.cff) or [LICENSE-DATA](LICENSE-DATA)). For Apache-licensed code, also reproduce the [NOTICE](NOTICE) file in your derivative work.
+
+The compound data (`data/v3_ground_truth.csv`) is derived from public sources: DEA Schedule I–V listings, FDA-approved drug listings, and PubChem canonical SMILES. The original public sources remain under their respective terms; this release contributes the curated benchmark composition, parse-verified SMILES, and ground-truth labeling decisions documented in Section 3.5 of the manuscript.
+
+**Governance documents** (IUS-001, RSC-001, VAL-001, AUD-001, CCM-001, UIG-001, FAVES-V4 Technical Overview) are not included in this repository and are not covered by either of these licenses. See [novomcp.com/governance](https://novomcp.com/governance) or contact the corresponding author.
 
 ---
 

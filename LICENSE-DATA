@@ -1,0 +1,99 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Ari Harrison (NovoMCP)
+
+This license applies to the following components of this repository:
+
+  - data/v3_ground_truth.csv (the 102-compound regulatory benchmark)
+  - reports/* (all execution reports: validation, cross-path consistency,
+    and latency benchmarks)
+
+The full legal text of the CC BY 4.0 license is available at:
+
+    https://creativecommons.org/licenses/by/4.0/legalcode
+
+A human-readable summary is available at:
+
+    https://creativecommons.org/licenses/by/4.0/
+
+================================================================================
+
+SUMMARY OF YOUR RIGHTS AND OBLIGATIONS
+
+You are free to:
+
+  - Share — copy and redistribute the material in any medium or format
+  - Adapt — remix, transform, and build upon the material for any purpose,
+    even commercially
+
+Under the following terms:
+
+  - Attribution — You must give appropriate credit, provide a link to the
+    license, and indicate if changes were made. You may do so in any
+    reasonable manner, but not in any way that suggests the licensor
+    endorses you or your use.
+
+  - No additional restrictions — You may not apply legal terms or
+    technological measures that legally restrict others from doing
+    anything the license permits.
+
+================================================================================
+
+REQUIRED ATTRIBUTION
+
+When using these data or reports in academic, regulatory, commercial, or
+other communications, please cite:
+
+  Harrison, A. FAVES V4: A Production-Deployed Compliance and Liability
+  Screening System for Drug Discovery at 122M-Compound Scale, Aligned to
+  HHS/ONC FAVES and NIST AI 600-1. ChemRxiv (2026).
+  DOI: 10.26434/chemrxiv-pending
+
+BibTeX:
+
+  @article{harrison2026favesv4,
+    author  = {Harrison, Ari},
+    title   = {FAVES V4: A Production-Deployed Compliance and Liability
+               Screening System for Drug Discovery at 122M-Compound Scale,
+               Aligned to HHS/ONC FAVES and NIST AI 600-1},
+    journal = {ChemRxiv},
+    year    = {2026},
+    doi     = {10.26434/chemrxiv-pending}
+  }
+
+================================================================================
+
+SOURCE NOTES FOR THE DATA
+
+The 102-compound v3 ground truth (data/v3_ground_truth.csv) is derived
+from public sources:
+
+  - DEA Schedule I–V listings (controlled-substance ground truth)
+  - FDA-approved drug database (negative-control whitelist)
+  - PubChem (canonical SMILES and identity resolution)
+
+The original public sources remain under their respective terms. This
+release contributes the curated benchmark composition, the parse-verified
+SMILES set, and the ground-truth labeling decisions documented in the
+companion manuscript.
+
+The execution reports (reports/*) are original work product produced by
+the deployed FAVES V4 service against this benchmark; they are subject to
+this license in full.
+
+================================================================================
+
+NO WARRANTY
+
+Unless otherwise separately undertaken by the Licensor, to the extent
+possible, the Licensor offers the Licensed Material as-is and as-available,
+and makes no representations or warranties of any kind concerning the
+Licensed Material, whether express, implied, statutory, or other.
+
+To the extent possible, in no event will the Licensor be liable to You on
+any legal theory for any special, incidental, consequential, punitive,
+exemplary, or other losses, costs, expenses, or damages arising out of
+this Public License or use of the Licensed Material.
+
+See the full legal text at https://creativecommons.org/licenses/by/4.0/legalcode
+for the complete terms.
