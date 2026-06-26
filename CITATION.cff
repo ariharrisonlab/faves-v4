@@ -35,8 +35,8 @@ keywords:
 license:
   - Apache-2.0
   - CC-BY-4.0
-license-url: "https://github.com/realariharrison/faves-v4/blob/main/README.md#license"
-repository-code: "https://github.com/realariharrison/faves-v4"
+license-url: "https://github.com/ariharrisonlab/faves-v4/blob/main/README.md#license"
+repository-code: "https://github.com/ariharrisonlab/faves-v4"
 url: "https://api.novomcp.com"
 version: "1.0.0"
 date-released: "2026-05-15"
@@ -65,5 +65,5 @@ references:
     authors:
       - family-names: Harrison
         given-names: Ari
-    repository-code: "https://github.com/realariharrison/faves-v3-benchmark"
+    repository-code: "https://github.com/ariharrisonlab/faves-v3-benchmark"
     doi: "10.5281/zenodo.18357496"

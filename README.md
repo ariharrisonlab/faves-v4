@@ -13,7 +13,7 @@ FAVES V4 is a four-layer cheminformatics screening system aligned to two complem
 
 **Live API:** [https://api.novomcp.com](https://api.novomcp.com) — `POST /api/classify` accepts `{"smiles": "..."}` and returns the full ClassifyResponse.
 
-**Companion v3 release:** [`realariharrison/faves-v3-benchmark`](https://github.com/realariharrison/faves-v3-benchmark) — V3 paper's regulatory benchmark (102 compounds), preserved unchanged for citation continuity. The 102-compound v3 ground truth is also vendored here (`data/v3_ground_truth_102_compounds.csv`) for self-contained reproduction.
+**Companion v3 release:** [`ariharrisonlab/faves-v3-benchmark`](https://github.com/ariharrisonlab/faves-v3-benchmark) — V3 paper's regulatory benchmark (102 compounds), preserved unchanged for citation continuity. The 102-compound v3 ground truth is also vendored here (`data/v3_ground_truth_102_compounds.csv`) for self-contained reproduction.
 
 ---
 
@@ -70,7 +70,7 @@ The deployed FAVES V4 service at `https://api.novomcp.com` is the canonical repr
 ### Setup
 
 ```bash
-git clone https://github.com/realariharrison/faves-v4.git
+git clone https://github.com/ariharrisonlab/faves-v4.git
 cd faves-v4
 pip install rdkit requests httpx
 export NOVOMCP_API_KEY=nmcp_xxx   # request at https://api.novomcp.com

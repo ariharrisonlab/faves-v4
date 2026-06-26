@@ -7,7 +7,7 @@ Usage: NOVOMCP_API_KEY=nmcp_xxx python3 faves_v4_validation.py
 
 Tests:
   3.1 — V3 Regulatory Benchmark (102 compounds: 47 DEA + 46 FDA + 9 negative
-        controls, sourced from realariharrison/faves-v3-benchmark)
+        controls, sourced from ariharrisonlab/faves-v3-benchmark)
   3.2 — V4 Field Completeness (200 diverse molecules: 102 v3 + 50 novel +
         48 edge cases)
   3.5 — BOILED-Egg Implementation Verification (20 reference drugs)
@@ -51,7 +51,7 @@ if not API_KEY:
 # ---------------------------------------------------------------------------
 
 # Full v3 benchmark ground truth (102 compounds: 47 DEA + 46 FDA + 9 negative).
-# Source: realariharrison/faves-v3-benchmark/data/ground_truth.csv (vendored
+# Source: ariharrisonlab/faves-v3-benchmark/data/ground_truth.csv (vendored
 # locally as v3_ground_truth.csv to keep this validation reproducible without
 # external network dependencies).
 from v4_test_compounds import (
@@ -228,7 +228,7 @@ class TestResult:
 def test_3_1() -> TestResult:
     """47 DEA compounds must be flagged; 55 non-controlled (46 FDA + 9 negative) must be clean.
 
-    Uses the full 102-compound benchmark from realariharrison/faves-v3-benchmark.
+    Uses the full 102-compound benchmark from ariharrisonlab/faves-v3-benchmark.
     Acceptance: 100% sensitivity AND 100% specificity (NMCP-FAVES-VAL-001 §3.1).
     """
     r = TestResult("3.1", "V3 Regulatory Screening Benchmark")

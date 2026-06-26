@@ -3,7 +3,7 @@
 Provides:
 - load_v3_ground_truth() — 102 compounds (47 DEA + 46 FDA + 9 negative controls)
   loaded from v3_ground_truth.csv, the same dataset published with the v3 paper
-  (https://github.com/realariharrison/faves-v3-benchmark).
+  (https://github.com/ariharrisonlab/faves-v3-benchmark).
 - TEST_3_2_NOVEL — 50 novel SMILES (not expected to resolve in PubChem) for
   field-completeness stress-testing of the live computation path.
 - TEST_3_2_EDGE_CASES — 48 edge-case SMILES spanning charged species, small
