@@ -14,7 +14,8 @@ abstract: >-
   system aligned to the U.S. HHS/ASTP/ONC FAVES rubric (Fair, Appropriate,
   Valid, Effective, Safe) for trustworthy AI in healthcare. This release
   contains the full v3 ground truth (102 compounds), the V4 field-completeness
-  200-compound set, the validation execution record (362/362 post-fix), the
+  200-compound set, the validation execution record (341/342 pre-fix; post-fix
+  re-run reported in the manuscript), the
   cross-RDKit-version external reproducibility report (20/20), and the
   end-to-end latency benchmark (90 steady-state samples). The seven NMCP-FAVES
   governance documents are summarized in Section 4 of the manuscript; full
